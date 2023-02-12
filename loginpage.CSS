@@ -1,0 +1,232 @@
+body, html {
+	margin:0;
+	color:#6a6f8c;
+	background-image: url("images/loginbackground.jpg");
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*fixed navigation bar*/
+#NavBar{
+	width:100%;
+	top:0.5%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right:0;
+	overflow: hidden;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#5F1100;
+ 
+}
+li {
+  float: left;
+ 
+}
+
+li a, .dropdown-button {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:20px;
+
+}
+
+.NavBar a.active{
+	background-color:white;
+	color:#5F1100;
+}
+
+li a:hover, .dropdown:hover .dropdown-button {
+	background-color:#ff1a1a;
+	color:black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color:#ff9980;
+	}
+	
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ li#login{
+	float:right;
+	font-weight:bold;
+	padding: 0px 20px;
+}
+/*end of navbar*/
+
+
+
+.formPosi{
+	padding:0px 0 0 0;
+}
+
+.LogInBox{
+	position:;
+	width:800px;
+	background-color:rgb(0,0,0,0.7);
+	margin:auto;
+	color:#fff;
+	padding:15px 0px 15px 0px;
+	border-radius:5px 5px 0 0;
+	text-align:center;
+	
+}
+
+.main{
+	background-color:rgb(0,0,0,0.6);
+	width:800px;
+	margin:auto;
+	border-radius:0 0 5px 5px;
+	height:350px;
+}
+
+form{
+	padding:15px;
+}
+
+
+.formContent{
+	width:100%;
+	height:50px;
+	position:relative;
+	left:180px;
+	line-height:40px;
+	width:530px;
+	padding:0 22px;
+	font-size:18px;
+	color:#fff;
+	
+}
+
+.formContent1{
+
+	height:27px;
+	padding:0 22px;
+	line-height:0px;
+	width:240px;
+	border-radius:12px;
+	padding:0 22px;
+	font-size:16px;
+	color:#000000;
+}
+
+.formContent2{
+	height:27px;
+	padding:0 22px;
+	line-height:0px;
+	width:220px;
+	border-radius:12px;
+	padding:0 22px;
+	font-size:16px;
+	color:#000000;
+}
+
+.main2{
+	background-color:rgb(0,0,0,0.6);
+	width:800px;
+	margin:auto;
+	border-radius:0 0 5px 5px;
+	height:550px;
+}
+
+.formContent3{
+	height:27px;
+	padding:0 22px;
+	line-height:0px;
+	width:209px;
+	border-radius:12px;
+	padding:0 22px;
+	font-size:16px;
+	color:#000000;
+}
+
+.formContent4{
+	height:27px;
+	padding:0 22px;
+	line-height:0px;
+	width:209px;
+	border-radius:12px;
+	padding:0 22px;
+	font-size:16px;
+	color:#000000;
+}
+
+.formContent5{
+	height:27px;
+	padding:0 22px;
+	line-height:0px;
+	width:209px;
+	border-radius:12px;
+	padding:0 22px;
+	font-size:16px;
+	color:#000000;
+}
+
+.formContent6{
+	height:27px;
+	padding:0 22px;
+	line-height:0px;
+	width:209px;
+	border-radius:12px;
+	padding:0 22px;
+	font-size:16px;
+	color:#000000;
+}
+
+.formContentX{
+	
+	padding:15px 0px 30px 283px;
+}
+
+ .butn{
+	left:250px;
+	font-size:20px;
+	background-color:#990000;
+	color:white;
+	
+	margin:20px 0 0px 20px;
+	text-align:center;
+	border-radius: 50px;
+	border:2px solid #fff;
+	padding: 14px 50px;
+	outline:none;
+	cursor:pointer;
+	transition:0.25px;
+
+}
+
+.butn:hover{
+	color:#ff5c33;
+}
